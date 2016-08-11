@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <script   src="https://code.jquery.com/jquery-3.1.0.min.js"   integrity="sha256-cCueBR6CsyA4/9szpPfrX3s49M9vUU5BgtiJj06wt/s="   crossorigin="anonymous"></script>
+    <script src="js/scripts.js"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <link href="css/styles.css" rel="stylesheet" type="text/css">
+    <title>Political Survey</title>
+  </head>
+  <body>
+    <div class="container">
+      <h1>Political Survey</h1>
+      <h3>Do you lean left or right?</h3>
+      <form id="info">
+        <!-- <div class="form-group">
+          <label for="name">Your Name</label>
+          <input id="name" class="form-control" type="text">
+        </div> -->
+        <div class="form-group">
+          <label class="control-label" for="name">Your Name</label>
+          <input type="text" class="form-control" id="name">
+        </div>
+        <div class="form-group">
+          <label class="control-label" for="age">Your Age</label>
+          <input id="age" class="form-control" type="text">
+        </div>
+      </form>
+      <h4>Do you feel the Bern?<h4>
+      <form id="question1">
+        <div class="radio">
+          <label>
+            <input type="radio" name="question1" value="true" checked>True
+          </label>
+          <label>
+            <input type="radio" name="question1" value="false">False
+          </label><hr>
+        </div>
+        <!-- <button type="submit" class="btn-success">Go!</button> -->
+      </form>
+
+
+
+      <h4>Do you like dolphins?<h4>
+      <form id="question2">
+        <div class="radio">
+          <label>
+            <input type="radio" name="question2" value="true" checked>True
+          </label>
+          <label>
+            <input type="radio" name="question2" value="false">False
+          </label><hr>
+        </div>
+      </form>
+
+      <form id=button>
+        <button type="submit" class="btn-success">Go!</button>
+      </form>
+
+      <!-- <h4>Question<h4>
+      <form id="question_">
+        <div class="radio">
+          <label>
+            <input type="radio" name="question_" value="true" checked>True
+          </label>
+          <label>
+            <input type="radio" name="question_" value="false">False
+          </label><hr>
+        </div>
+      </form> -->
+    </div>
+  </body>
+</html>
